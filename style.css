@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 8px #242426;
+  height: 12vh;
+  align-items: center;
+  padding: 0 10%;
+}
+header a {
+  text-decoration: none;
+  color: #242426;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 50vw;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  header ul {
+    width: 50vw;
+    justify-content: space-between;
+  }
+}
+
+main {
+  display: flex;
+  align-items: center;
+  height: 88vh;
+}
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+section {
+  margin: 20rem;
+}
+section div {
+  height: 20vh;
+  width: 25vw;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px) {
+  section div {
+    width: 60vw;
+    height: 30vh;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -10rem;
+  }
+}
+section button {
+  background-color: #FCA60F;
+  border: none;
+  padding: 0.6rem 3.8rem;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  font-size: 1rem;
+  color: white;
+  margin-top: -1rem;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  section button {
+    padding: 1rem 3.9rem;
+    font-size: 0.9rem;
+    margin-top: -20rem;
+  }
+}
+section img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+  margin-left: 0.4rem;
+  width: 5.4vw;
+}
+@media (max-width: 600px) {
+  section img {
+    width: 25vw;
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.logo {
+  width: 28vh;
+}
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
